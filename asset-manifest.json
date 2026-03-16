@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/dhruvinPortfolio/static/css/main.5d9d7611.chunk.css",
+    "main.js": "/dhruvinPortfolio/static/js/main.4504777a.chunk.js",
+    "main.js.map": "/dhruvinPortfolio/static/js/main.4504777a.chunk.js.map",
+    "runtime-main.js": "/dhruvinPortfolio/static/js/runtime-main.3aa0e316.js",
+    "runtime-main.js.map": "/dhruvinPortfolio/static/js/runtime-main.3aa0e316.js.map",
+    "static/css/2.f923c748.chunk.css": "/dhruvinPortfolio/static/css/2.f923c748.chunk.css",
+    "static/js/2.8cd209c2.chunk.js": "/dhruvinPortfolio/static/js/2.8cd209c2.chunk.js",
+    "static/js/2.8cd209c2.chunk.js.map": "/dhruvinPortfolio/static/js/2.8cd209c2.chunk.js.map",
+    "index.html": "/dhruvinPortfolio/index.html",
+    "static/css/2.f923c748.chunk.css.map": "/dhruvinPortfolio/static/css/2.f923c748.chunk.css.map",
+    "static/css/main.5d9d7611.chunk.css.map": "/dhruvinPortfolio/static/css/main.5d9d7611.chunk.css.map",
+    "static/js/2.8cd209c2.chunk.js.LICENSE.txt": "/dhruvinPortfolio/static/js/2.8cd209c2.chunk.js.LICENSE.txt",
+    "static/media/Berrito.e5df20ef.pdf": "/dhruvinPortfolio/static/media/Berrito.e5df20ef.pdf",
+    "static/media/Leo.40276f5a.pdf": "/dhruvinPortfolio/static/media/Leo.40276f5a.pdf",
+    "static/media/about.91228f46.jpeg": "/dhruvinPortfolio/static/media/about.91228f46.jpeg",
+    "static/media/acura.7d8adab8.pdf": "/dhruvinPortfolio/static/media/acura.7d8adab8.pdf",
+    "static/media/acura.c30f1e43.png": "/dhruvinPortfolio/static/media/acura.c30f1e43.png",
+    "static/media/bafit.1cc83ea6.jpg": "/dhruvinPortfolio/static/media/bafit.1cc83ea6.jpg",
+    "static/media/bafit1.a5e13364.pdf": "/dhruvinPortfolio/static/media/bafit1.a5e13364.pdf",
+    "static/media/leo.d5b3df40.jpg": "/dhruvinPortfolio/static/media/leo.d5b3df40.jpg",
+    "static/media/logo.7ea7cd46.png": "/dhruvinPortfolio/static/media/logo.7ea7cd46.png",
+    "static/media/profile.e7809ea5.png": "/dhruvinPortfolio/static/media/profile.e7809ea5.png",
+    "static/media/weatherbond.a488549c.pdf": "/dhruvinPortfolio/static/media/weatherbond.a488549c.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3aa0e316.js",
+    "static/css/2.f923c748.chunk.css",
+    "static/js/2.8cd209c2.chunk.js",
+    "static/css/main.5d9d7611.chunk.css",
+    "static/js/main.4504777a.chunk.js"
+  ]
+}
