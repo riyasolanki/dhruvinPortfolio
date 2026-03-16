@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/sunil.jpg";
+import myImg from "../../Assets/profile.png";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
 
@@ -20,14 +20,11 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Sunil Yadav</strong>
+                <strong className="main-name"> Dhruvin Dabhi</strong>
               </h1>
 
               <p className="heading-description blockquote">
-                I am passionate about using Javascript and Animation Libraries
-                to create awesome user experiences. With over five years of
-                experience developing web applications using the latest
-                front-end and back-end technologies.
+                Deals in wholesale trading of building materials, including PVC pipe fittings, and bathroom accessories provides services in renovation works and Turnkey Projects, delivering reliable solutions for residential and commercial projects.
               </p>
 
               <div className="heading-type">

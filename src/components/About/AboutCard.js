@@ -7,30 +7,41 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sunil Yadav </span>
-            from <span className="purple"> Lucknow, India.</span>
+            Hi everyone, I’m <span className="purple">Dhruvin Dabhi</span> from{" "}
+            <span className="purple">Ahmedabad, India</span>.
             <br />
-            Software Engineer who loves to transform ideas into reality using
-            code.
+            I am in the business of supplying <span className="purple"> building materials</span>,
+            including <span className="purple"> upvc/PVC/cpvc pipe fittings, bathroom fixtures , sanitarywares and construction chemicles
+
+            </span>, and provide services in{" "}
+            <span className="purple">renovation works and construction chemicals</span>.
             <br />
-            Motivated designer and developer with experience creating
-            custom websites with ReactJs, JavaScript, HTML5, CSS3. Shopify app using ReactJs, Javascript, Polaris, Graphql, nodejs, Koajs
-            and Mobile App using React-native.
+            I am dealing in brands like <span className="purple">CERA, JAQUAR, ESSCO, BAFIT, ACURA, LEO TAPS AND FITTINGS</span>.
             <br />
-            Apart from coding, some other activities that I love to do!
+            My work focuses on delivering <span className="purple">reliable and high-quality solutions</span>
+            for both <span className="purple">residential and commercial projects</span>.
+            <br />
+            <br />
+            I am also the author of <span className="purple">Half Story Half Goodbye</span>, a{" "}
+            <span className="purple">published creative work</span> that explores emotions, relationships,
+            and unexpected moments in life. The book reflects real-world experiences through expressive
+            storytelling and relatable narratives, creating a deep connection with readers.
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Reading Books
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Writing Books
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
             <li className="about-activity">
               <ImPointRight /> Watching Movies
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Music
             </li>
           </ul>
         </blockquote>

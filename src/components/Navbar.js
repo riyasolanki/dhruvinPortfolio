@@ -3,16 +3,18 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import { ImBlog } from "react-icons/im";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
 
+import { GiKitchenTap } from "react-icons/gi";
+import { IoMdContacts } from "react-icons/io";
 import { MdDeveloperMode } from "react-icons/md";
+import logo from "../Assets/logo.png";
 
-import { CgFileDocument } from "react-icons/cg";
+import { MdPlumbing } from "react-icons/md";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -36,8 +38,21 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="http://www.logicstime.com/" target="_blank">
-          <MdDeveloperMode style={{ marginBottom: "2px" }} /> Logicstime.com
+        {/* <Navbar.Brand href="https://distributors.leotaps.com/leo-taps-fittings/dealers-in-ahmedabad/dealers-in-Sarkhej/leo-taps-and-fittings-shri-adhik-agencies-in-Sarkhej-ahmedabad--3CoX8a/home" target="_blank">
+          <MdDeveloperMode style={{ marginBottom: "2px" }} /> shri adhik agency
+        </Navbar.Brand> */}
+        <Navbar.Brand
+          href="https://distributors.leotaps.com/leo-taps-fittings/dealers-in-ahmedabad/dealers-in-Sarkhej/leo-taps-and-fittings-shri-adhik-agencies-in-Sarkhej-ahmedabad--3CoX8a/home"
+          target="_blank"
+          style={{ display: "flex", alignItems: "center", gap: "8px" }}
+        >
+
+          <img
+            src={logo}
+            style={{ height: "28px" }}
+          />
+
+          <span>Shri Adhik Agency</span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -67,7 +82,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -78,27 +93,37 @@ function NavBar() {
                 />{" "}
                 Projects
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/brands"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <GiKitchenTap style={{ marginBottom: "2px" }} /> Brands
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+             <Nav.Item>
               <Nav.Link
-                href="http://www.logicstime.com/"
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <IoMdContacts style={{ marginBottom: "2px" }} /> Contact
+              </Nav.Link>
+            </Nav.Item>
+
+            {/* <Nav.Item>
+              <Nav.Link
+                href="https://distributors.leotaps.com/leo-taps-fittings/dealers-in-ahmedabad/dealers-in-Sarkhej/leo-taps-and-fittings-shri-adhik-agencies-in-Sarkhej-ahmedabad--3CoX8a/home"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <IoMdContacts style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
